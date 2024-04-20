@@ -1,0 +1,182 @@
+@media screen and (max-width: 1280px) {
+    .logo{
+        width: 22%;
+        /*border-right: 1px solid black;*/
+    }
+    .nav{
+        width: 50%;
+    
+    }
+    .butt{
+        width: 28%;
+        /*border-right: 1px solid black;*/
+    }
+    .lastdiv div{
+        height: 80%;
+    }
+    
+  }
+
+  @media screen and (max-width: 1024px) {
+    .logo{
+        width: 20%;
+        /*border-right: 1px solid black;*/
+    }
+    .logo img{
+        /*  margin-top: 15px;*/
+          margin-left: 2%;
+      }
+    .nav{
+        width: 55%;
+    }
+    .nav ul li a{
+        font-size: 15px;
+    }
+    .butt{
+        width: 25%;
+        /*border-right: 1px solid black;*/
+    }
+    .butt ul li{
+        margin-left: 0px;
+    }
+    .button{
+        padding: 12px 15px;
+    }
+
+
+    .head div ul li{
+        padding: 4px ;   
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 180px 180px 180px 180px 180px ;
+        grid-template-rows: 180px ;   
+    }
+    .six{
+        display: none;
+    }
+    .content h1{
+        font-size: 53px;
+        padding-top: 20%;
+      
+    }
+    .content p{
+        font-size: 20px;
+        margin-top: 3%;
+       
+    }
+    .but-services{
+        font-size: 18px;
+        padding: 15px;
+        margin-top: 5%;
+    }
+    .lastdiv div{
+        height: 68%;
+    }
+    .arrow-right {
+        right: 4rem;
+      }
+  }
+
+  @media screen and (max-width: 768px) {
+    .head{
+       
+        padding-left: 0%;
+    }
+    .head div ul li{
+        padding: 2px ;   
+    }
+    .head div{
+        margin-right: 10%;
+    }
+    .nav{
+        display: none;
+    }
+    .nav ul li a{
+        display: none;
+    }
+    .butt{
+        display: none;
+    }
+    .logo img{
+        /*  margin-top: 15px;*/
+          margin-left: 1%;
+      }
+      .content h1{
+        font-size: 50px;
+        font-weight: 700;
+        padding-top: 20%;
+    }
+    .content p{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    section{
+        width: 100%;
+        height: 550px;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: 180px 180px 180px ;
+        grid-template-rows: 180px 180px 180px  180px ;
+        column-gap: 20px;
+        row-gap: 20px;
+        width: 100%;
+        height: 100%;  
+    }
+    .check{
+        font-size: 18px;
+        margin-top: -10%;
+    }
+    .large-div{
+        width: 100%;
+        height: 950px;
+    }
+    .content-images{
+        row-gap: 100px;
+    }
+    .quality i{
+        font-size: 40px;
+    }
+    .quality a{
+        font-size: 25px;
+    }
+    .quality p{
+        font-size: 18px;
+    }
+
+    .box-inner {
+        height: 45%;
+      }
+      .arrow-left {
+        left: 3rem;
+      }
+      .arrow-right {
+        right: 2rem; 
+      }
+      .lastdiv div{
+        width: 50%;
+        height: 50%;
+    }
+      .carouseldiv{
+        display: none;
+      }
+      .footer{
+        display: grid;
+        width: 100%;
+        grid-template-columns: 40% auto auto ;
+        grid-template-rows: 400px auto  ;
+        gap: 10px;
+        margin-top: -50%;
+    }
+    
+    .footer-section{
+        padding-top: 0%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+  }
+
+ 
+    

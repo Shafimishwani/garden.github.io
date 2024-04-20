@@ -1,0 +1,805 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+ ul{
+        list-style-type: none;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #6c757d;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-top: 10Px;
+}
+
+.head div{
+    margin-right: 17%;
+    
+}
+
+.head div ul li{
+    display: inline-block;
+    padding: 15px ; 
+    
+}
+
+/*
+.info{
+    width: auto;
+}
+*/
+.icon{
+    display: flex; 
+}
+.icon ul li i{
+    cursor: pointer;
+    transition: transform 0.5s linear;
+
+
+}
+.icon ul li i:hover{
+    color: blue;
+    transform: rotateY(180deg);
+
+}
+/*
+.info ul{
+    margin-left: 10%;
+}
+
+.gmail{
+    border-left: 1px solid #6c757d;
+    border-right: 1px solid #6c757d;
+}
+*/
+.secondhead{
+    display: flex;
+   /* padding-bottom: 20px;*/
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   z-index: 9;
+    
+}
+.logo{
+    width: 24%;
+    /*border-right: 1px solid black;*/
+}
+.logo img{
+  /*  margin-top: 15px;*/
+    margin-left: 30%;
+}
+.nav{
+    width: 46%;
+    /*border-right: 1px solid black;*/
+    text-align: center;
+    justify-content: space-around;
+
+}
+.nav ul li{
+    display: inline-block;
+    /*margin-top: 20px;*/
+    margin-left: 30px;
+
+}
+.nav ul{
+   margin-top: 3%;
+}
+.nav ul li a{
+    text-decoration: none;
+    font-family: Barlow, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(48, 26, 34);
+
+}
+.nav ul li a:hover{
+    color: green;
+}
+.butt{
+    width: 30%;
+    /*border-right: 1px solid black;*/
+}
+.butt ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.butt a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.button{
+    border-radius: 20px;
+    padding: 12px 20px;
+    /*
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 15px;
+    padding-right: 15px;
+    */
+    background-color: #00880f;
+}
+.button:hover{
+    color: #fff;
+}
+.butt button{
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f8f9fa;
+    color: #00880f;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+/* --------------------------BANNER AREA--------------------
+---------------------------------------------------------*/
+
+.sl-images{
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    
+
+}
+.slide{
+    height: 100%;
+    width: 100%;
+}
+.content{
+    position: relative;
+    width: 100%;
+    height: 650px;
+    
+    text-align: center;
+}
+.content h1{
+    font-size: 60px;
+    font-family: "Barlow",sans-serif;
+    color: white;
+    font-weight: 700;
+   /* text-align: center;*/
+   padding-top: 13%;
+}
+.content p{
+    font-size: 24px;
+    font-family: "Barlow",sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 2%;
+}
+.but-services{
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border: none;
+    margin-top: 5%;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    padding-top: 5%;
+    background-color: #EFF6F0;
+    text-align: center;
+}
+
+/*SERVICES AREA START HERE----------------------------------
+-----------------------------------------------------*/
+
+.container{
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px 180px 180px;
+    grid-template-rows: 180px ;
+    column-gap: 20px;
+    width: 100%;
+    height: 180px;
+    background-color: #EFF6F0;
+    justify-content: center;
+    
+}
+
+.grid{
+    background: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.grid ul li i{
+    font-size: 50px;
+    color: #00880f;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    color: black;
+}
+.check{
+    color: #198754;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 3%;
+}
+.check a{
+    color: green;
+}
+
+/*Content with imagres------------------------------------------
+
+--------------------------------------------------*/
+
+.large-div{
+    width: 100%;
+    height: 750px;
+    background-color: #305534;
+
+}
+
+.content-images{
+    display: grid;
+    grid-template-columns: 40% 30%;
+    grid-template-rows: 180px 180px 350px;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+.content-one{
+    color: white;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 60px;
+}
+.content-three{
+    color: #C9D6CB;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content-two h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 60px;
+}
+.content-two p{
+    font-size: 20px;
+    color: #C9D6CB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+
+}
+
+.content-four h2{
+    font-size: 30px;
+    color: white;
+    padding-top: 40px;
+}
+.content-four p{
+    font-size: 20px;
+    color: #C9D6CB;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+}
+.content-six button{
+    margin-top: 5%;
+    background-color: green;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content-six button:hover{
+    background-color: black;
+    border: 1px solid white ;
+    transition: 0.8s;
+}
+.content-six img{
+    margin-top: 9%;
+}
+
+.quality{
+    display: flex;
+}
+.quality div{
+    height: 300px;
+    width: auto;
+    border: 1px solid #C9D6CB;
+
+}
+
+.quality  ul li{
+    margin-left: 5%;
+    margin-top: 6%;
+
+}
+.quality i{
+    font-size: 50px;
+    color: #00880f;
+}
+.quality a{
+    font-size: 30px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.quality p{
+    font-size: 20px;
+    color: #66816A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* features area------------------------
+---------------------------------------------------------
+-----------------------------------------------------*/
+
+.box-outer {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow-left {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+   /* top: 1.5rem;*/
+    left: 5rem;
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .arrow-right {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+   /* top: 1.5rem;*/
+    right: 5rem; 
+    z-index: 1;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .box-inner {
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .thumb {
+    height: 100%;
+    width: 30%;
+    background-color: green;
+    display: inline-block;
+    position: relative;
+  }
+
+  .thumb img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    margin-top: 5%;
+  }
+
+.feature h1{
+    color: #305534;
+    font-size: 48px;
+    font-weight: 600;
+}
+.image-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: transform  0.8s;
+}
+.image-content h1{
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+}
+.image-content p{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+.image-content:hover{
+    opacity: 1;
+}
+.image-content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.image-content:hover > *{
+    transform: translateY(0px);
+}
+.image-content button{
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 10px 55px;
+    cursor: pointer;
+    background: transparent;
+
+
+
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+   
+}
+
+.image-content button::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;  
+
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    transform: translateY(-100%);
+
+}
+
+.image-content button:hover::before{
+    transform: translateY(0%);
+}
+
+.image-content button:hover{
+    color: green;
+   
+
+}
+
+
+
+/*last div work start--------------------------------------------
+--------------------------------------------------------------
+----------------------------------------------*/
+
+.lastdiv{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.lastdiv div{
+    width: 33%;
+    height: fit-content;
+    margin: 10px;
+}
+.imagediv img{
+    width: 100%;
+    height: 100%;
+}
+
+/*Testimonial section works here--------------------------
+----------------------------------------------*/
+/*.carouseldiv{
+    padding-top: 3%;
+}
+.testimonial-image{
+    width: 100%;
+    background-color: #E1306C;
+    
+}
+
+/*
+.img-test img{
+    width: 100%;
+    height: 100%;
+}
+*/
+.carouseldiv h1{
+    margin-left: 3%;
+    color: #305534;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+/*
+.car-p{
+   font-size: 1rem;
+   padding: 20px;
+   color: #305534;
+   font-family: "Barlow", sans-serif;
+   line-height: 1.8;
+   padding-bottom: 8%;
+}
+*/
+.carouseldiv img{
+    width: 100%;
+    height: 100%;
+   
+}
+/*
+.carouseldiv h2{
+    font-size: 20px;
+    color: #66816A;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8;
+}
+.test-p{
+    font-size: 14px;
+    color: #66816A;
+    text-align: center;
+    margin-top: -3%;
+}
+.butoon{
+    width: 100%;
+    height: 70px;
+    background-color: #00880f;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+  /*  margin-top: 5%;
+}*/
+
+
+
+/* contact form work here __________________________________*/
+.contactform{
+    padding-top: 3%;
+
+}
+.contactform h1{
+    margin-left: 3%;
+    color: #305534;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+}
+.inp{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    margin: 3%;
+    border: 1px solid #305534;
+}
+.message{
+    width: 80%;
+    height: 100px;
+    color: #305534;
+}
+
+::placeholder{
+padding-left: 25px;
+color: #305534;
+}
+.message::placeholder{
+    padding-top: 3%;
+}
+select{
+    padding-left: 25px;
+    color: #305534;
+}
+.requestbutton{
+    width: 100%;
+    height: 70px;
+ /*   margin-top: 6%;*/
+    background-color: #00880f;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+}
+
+
+/*carousel div start here ------------------------------------*/
+/*
+.carouseldiv{
+    background-color: yellow;
+    width: 33%;
+   
+}
+
+
+.im{
+   border: 1px solid black;
+   width: 100%;
+
+}
+
+
+*/
+
+.carouseldiv button{
+    background-color: #66816A;
+    margin-top: 73%;
+}
+
+/*footer section works start here-------------------------------
+------------------------------------------------*/
+
+
+.footer{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 35% auto auto auto ;
+    grid-template-rows: 400px  ;
+    gap: 10px;
+}
+
+.footer-section{
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer-section h1{
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    color: #305534;
+    font-weight: 700;
+    margin-top: 20%;
+}
+
+.contact-section h1{
+    margin-top: 10%;
+}
+.contact-section{
+    padding-left: 0;
+    padding-top: 8%;
+}
+
+.service-section{
+    margin-top: -2%;
+}
+.footer-section ul li a{
+    color: #305534;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+
+}
+
+.logo-section ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+.logo-section ul li i{
+    background: none;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 136, 15, 0.2);;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 11px;
+    border-radius: 20px;
+    color: #00880f;
+    transition: background-color 1s;
+}
+.logo-section ul li i:hover{
+    background-color: #00880f;
+    border: none;
+    color: #fff;
+}
+
+.logo-section .fa-facebook-f:hover{
+    background-color: blue;
+}
+
+.logo-section .fa-instagram:hover{
+    background-color: #E1306C;
+}
+
+.logo-section .fa-linkedin-in:hover{
+    background-color: blue;
+}
+
+.logo-section .fa-youtube:hover{
+    background-color: red;
+}
+
+.logo-section p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #305534;
+    padding-top: 10%;
+    font-family: "Barlow", sans-serif;
+}
+span{
+    font-size: 20px;
+    color: green;
+    font-weight: 700;
+}
+.emailcolor{
+    color: green;
+    font-size: 15px;
+    font-weight: 200;
+}
+.end-section{
+    width: 100%;
+    height: 150px;
+}
+.end-section p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+
+}
+.end-section i{
+    color: green;
+}
+hr{
+    z-index: 10;
+}
+
+/*
+
+.psedu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+}
+.psedu::before{
+    content: "";
+    width: 200px;
+    height: 200px;
+   
+    position: absolute;
+    background-color: #EFF6F0;
+    z-index: -1;
+    transition: all 0.8s ;
+}
+
+.psedu:hover::before{
+    transform: translateY(-100%);
+}
+
+
+*/
+
